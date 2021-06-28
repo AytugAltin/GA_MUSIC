@@ -1,0 +1,16 @@
+\section{Model}
+In this section, the complete model is discussed.  On figure \ref{fig:GA_MODEL} an overview of our model is illustrated. Before we go into detail, we briefly discuss the structure of our model.
+\begin{figure}
+    \includegraphics[width=\linewidth]{figures/GA_structure.png}
+    \caption{The genetic model, an overview of the important components.}
+    \label{fig:GA_MODEL}
+\end{figure}
+The initial population can consist of both random songs or non-random songs, these are called $GEN0$. The next generation is calculated by applying a crossover function on $GEN0$ to obtain $GEN1$ which is the offspring. The offspring is calculated by using a crossover function. Now we select the best rated songs in $GEN1$ and mutate them. This process is repeated until a certain condition is met or until user is satisfied with the results and manually terminates the loop.
+
+
+\input{section/model/init.tex}
+
+
+\input{section/model/crossover.tex}
+\input{section/model/selection.tex}
+\input{section/model/fitness.tex}

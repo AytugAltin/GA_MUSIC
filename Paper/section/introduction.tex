@@ -1,0 +1,11 @@
+\section{Introduction}
+Evolutionary algorithms can be used for both optimization problems and modelling problems \cite{BOOK:GA}. In both cases, we are looking for some input that creates a known or desired output. Modelling problems can be transformed to optimization problems where our search space is defined by all the potential models. %% TODO add more info about power of genetic algorithm, optimum space exploration exploitation
+\\\\
+In the domain of music composition we lack a model that could judge the input, the fitness function, and our desired output may be ill-defined. In GenJam \cite{PAPER:GENJAM}, the quality of the genetically produced solos are rated by human individuals. A human mentor gives "real-time feedback" which is used to derive a fitness score. Fitness can also be calculated by different  aspects based on music theory as shown in \cite{PAPER:DRAGAN}, \cite{PAPER:GUPEA}, \cite{PAPER:MAGMA}. By splitting the fitness function into subcategories, we are allowed to rate an individual song based on different aspects and set importance to certain preferred aspect. In \cite{PAPER:GUPEA}, songs were compared to a well known group of songs. In \cite{PAPER:DRAGAN}, each bar of the song is rated by different criteria and summed up together to obtain the total fitness. The fitness is here calculated by the similarity between the to be rated individual and a reference individual or by reference values.  Five fitness functions where used in \cite{PAPER:MAGMA}, one per type of user preference. These preferences are: transition, repetition, variety, range and mood.
+\\\\
+In this paper, we emphasized on the structure of the individual songs. Instead of focusing on theories that define music to be better than others, we focussed on a master song that defines the theory similar to \cite{PAPER:DRAGAN}. The similarities between the population and the master can be based on the result of an absolute comparison i.e. comparing the exact number of notes of the candidate, which is the to be rated song, to the master. However, these absolute ratings would result in a population that is exactly the same as the master song, this is not what we are looking for. We introduce a new way to rate the candidates: relative ratings.
+
+
+
+
+% TODO explain how the paper is structured in the folowing sections.

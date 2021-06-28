@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{BOOK:GA}
+James E.~Smith A.~E.~Eiben.
+\newblock {\em Introduction to Evolutionary Computing}.
+\newblock Mairdumont Gmbh \& Co. Kg, 2003.
+
+\bibitem{PAPER:GUPEA}
+Viktor. Anderling, Olle. Andreasson, Christoffer. Olsson, Sean. Pavlov,
+  Christian. Svensson, and Johannes Wikner.
+\newblock Generation of music through genetic algorithms.
+\newblock Master's thesis, Chalmers University of Technology University of
+  Gothenburg Department of Computer Science and Engineering, Gothenburg,
+  Sweden, 6 2014.
+
+\bibitem{PAPER:GENJAM}
+John Biles.
+\newblock Genjam: A genetic algorithm for generating jazz solos.
+\newblock 07 1994.
+
+\bibitem{PAPER:MAGMA}
+Adil~Haleem Khan.
+\newblock Artificial intelligence approaches to music composition.
+\newblock Northern Kentucky University, Highland Heights, KY 41099, 2013.
+
+\bibitem{PAPER:DRAGAN}
+Dragan Matić.
+\newblock A genetic algorithm for composing music.
+\newblock {\em Yugoslav Journal of Operations Research}, 20, 01 2010.
+
+\end{thebibliography}
