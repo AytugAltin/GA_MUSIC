@@ -1,7 +1,9 @@
 
 \subsection{The fitness function}
-A composition has multiple aspects that can be rated at an individual level as it should. Therefore, the fitness function can be divided into multiple sub-functions that belong to a concept. This concept can be seen as what it is that the function-gives a score, e.g. the tendency to follow an musical scale within the composition can be a concept. Every sub-function calculates a score and to this score there is a predetermined weight attached that implies the importance of the rated concept. The total fitness of a song x is equal to the sum of products of all sub-functions S an their corresponding weights.
-\[ TotalFitness(x) = \sum_{S=1}^{n} S_{concept} * W_{concept} \   \text{ }\] 
+
+A composition has multiple aspects that can be rated at each individual level, therefore, the fitness of an individual is determined by different \textbf{rating functions}. Each of these rating functions gives a certain \textbf{score} for a particular \textbf{concept} of the song. We clarify with an example: the tendency to follow a musical scale within the composition can be such a concept. Every rating function calculates a score and to this score there is a predetermined weight attached that implies the importance of the rated concept. The total fitness of a song $x$ is equal to the sum of the products of all rating functions S for each concept and their corresponding weights W.
+\[ TotalFitness(x) = \sum_{i=1}^{C} S_{i} * W_{i}\] 
+where C is the number of concepts.
 
 
 \[ S(x) =  difference( f(x) ,optimalscore) * S_{weight} \]

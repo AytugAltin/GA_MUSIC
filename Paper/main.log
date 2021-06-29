@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.25)  28 JUN 2021 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.25)  29 JUN 2021 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,67 +300,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--45
 \T1/cmr/m/n/10 Keyword; Key-word; Key-word Key-word;
  []
 
-(./section/introduction.tex
-Underfull \hbox (badness 2173) in paragraph at lines 2--7
-\T1/cmr/m/n/10 op-ti-miza-tion prob-lems and mod-elling prob-
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 2--7
-\T1/cmr/m/n/10 Mod-elling prob-lems can be trans-formed to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-
- []
-
-
-Underfull \hbox (badness 4805) in paragraph at lines 2--7
-\T1/cmr/m/n/10 In the do-main of mu-sic com-po-si-tion we
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 2--7
-\T1/cmr/m/n/10 func-tion into sub-cat-e-gories, we are al-lowed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 2--7
-\T1/cmr/m/n/10 on the-o-ries that de-fine mu-sic to be bet-ter
- []
-
-) (./section/model.tex
+(./section/introduction.tex) (./section/model.tex
 <figures/GA_structure.png, id=1, 945.5325pt x 523.9575pt>
 File: figures/GA_structure.png Graphic file (type png)
 <use figures/GA_structure.png>
 Package pdftex.def Info: figures/GA_structure.png  used on input line 4.
 (pdftex.def)             Requested size: 208.39568pt x 115.47887pt.
- [1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ (./section/model/init.tex [1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] (./section/model/init.tex) (./section/model/crossover.tex
-<Fotos/crossover/init.png, id=17, 708.6475pt x 247.92625pt>
+ <./figures/GA_structure.png>]) (./section/model/crossover.tex
+<Fotos/crossover/init.png, id=16, 708.6475pt x 247.92625pt>
 File: Fotos/crossover/init.png Graphic file (type png)
 <use Fotos/crossover/init.png>
-Package pdftex.def Info: Fotos/crossover/init.png  used on input line 7.
+Package pdftex.def Info: Fotos/crossover/init.png  used on input line 5.
 (pdftex.def)             Requested size: 208.39568pt x 72.90685pt.
-<Fotos/crossover/last.png, id=18, 708.6475pt x 142.5325pt>
+<Fotos/crossover/last.png, id=17, 708.6475pt x 142.5325pt>
 File: Fotos/crossover/last.png Graphic file (type png)
 <use Fotos/crossover/last.png>
-Package pdftex.def Info: Fotos/crossover/last.png  used on input line 13.
+Package pdftex.def Info: Fotos/crossover/last.png  used on input line 10.
 (pdftex.def)             Requested size: 208.39568pt x 41.91405pt.
-) (./section/model/selection.tex) (./section/model/fitness.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (./section/model/fitness.tex) (./section/model/selection.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 3--49
 
  []
 
-)) [2 <./figures/GA_structure.png> <./Fotos/crossover/init.png> <./Fotos/crossover/last.png>]
+[2 <./Fotos/crossover/init.png> <./Fotos/crossover/last.png>]
 Underfull \hbox (badness 1558) in paragraph at lines 67--68
 \T1/cmr/m/n/10 knowl-edge-ments Ac-knowl-edge-ments Ac-knowl-
  []
@@ -396,15 +364,15 @@ File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4958 strings out of 478510
- 67935 string characters out of 5853586
- 405779 words of memory out of 5000000
- 22847 multiletter control sequences out of 15000+600000
- 414617 words of font info for 44 fonts, out of 8000000 for 9000
+ 4954 strings out of 478510
+ 67895 string characters out of 5853586
+ 406319 words of memory out of 5000000
+ 22845 multiletter control sequences out of 15000+600000
+ 413083 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,66p,1263b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,7n,66p,1267b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (3 pages, 264579 bytes).
+Output written on main.pdf (3 pages, 254899 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1624880533 "main.aux" "main.bbl" "main" 1624880875
+["bibtex main"] 1624968736 "main.aux" "main.bbl" "main" 1624969280
   "c:/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1624618655 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1624880874 1919 b394497e553024652c94545ac1d8e346 "pdflatex"
+  "main.aux" 1624969279 2010 277482a3134bfb8a049d22e4354b8356 "pdflatex"
   "mybib.bib" 1624876137 1370 7026c4777624b839516e6fce3b514b2b ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1624880873 "d:/SCHOOL/2018-2019/BachelorProef/indienen/Paper/main.tex" "main.pdf" "main" 1624880875
+["pdflatex"] 1624969278 "d:/SCHOOL/2018-2019/BachelorProef/indienen/Paper/main.tex" "main.pdf" "main" 1624969280
   "Fotos/crossover/init.png" 1557069746 13299 7bfb8d2f4dd4f4c74fe9ecf7af799bf0 ""
   "Fotos/crossover/last.png" 1557078539 8563 7b92b3d683225e784328ffa471e721d8 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1624619018 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -17,8 +17,6 @@
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1624619553 3584 402da0b29eafbad07963b1224b222f18 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1624619553 3584 13049b61b922a28b158a38aeff75ee9b ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/eccc1000.tfm" 1624619553 3072 0e825b3b77feef5bf88d50fba1209c90 ""
-  "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm" 1624619554 3584 178baad7ffca7f5d3428a83bd7cc64c3 ""
-  "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm" 1624619554 3584 cf973739aac7ab6247f9150296af7954 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1624619554 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1624619554 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1624619554 3584 3169d30142b88a27d4ab0e3468e963a2 ""
@@ -84,17 +82,17 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1624623678 5227234 8169b85b11be64e0073b5aa9f9ec0c16 ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1624623861 2814624 fe7fc987cf8333ebce78391a06e409a6 ""
   "c:/texlive/2021/texmf.cnf" 1624623642 713 e69b156964470283e0530f5060668171 ""
-  "d:/SCHOOL/2018-2019/BachelorProef/indienen/Paper/main.tex" 1624876353 2588 50dab7f0384e0b368c5a30bce0e27b00 ""
+  "d:/SCHOOL/2018-2019/BachelorProef/indienen/Paper/main.tex" 1624965952 2380 d59ffbdcf698fc72e5eeea871e0d5d43 ""
   "figures/GA_structure.png" 1581542944 38654 d93776cf59de348c9b1e183b2a021c1f ""
-  "main.aux" 1624880874 1919 b394497e553024652c94545ac1d8e346 "pdflatex"
-  "main.bbl" 1624880534 1021 89e0ccc67072d31a49fba2038212e2e2 "bibtex main"
-  "main.tex" 1624876353 2588 50dab7f0384e0b368c5a30bce0e27b00 ""
-  "section/introduction.tex" 1624879075 2336 06417be5a9b3fee5e0b34cb60f8f1f1b ""
-  "section/model.tex" 1624880872 1036 a5ab6e8a18b4a5cefe76607dc5fbcc77 ""
-  "section/model/crossover.tex" 1587914898 1252 c73d46ff0ac4280dc974db966ec33150 ""
-  "section/model/fitness.tex" 1588000842 1363 9115d9d81832c38f236ae9ce794d7b38 ""
-  "section/model/init.tex" 1587916866 519 9843cc25d60960d9a19df172e28b45be ""
-  "section/model/selection.tex" 1615997577 76 d02d2ade136d8fcdd9bd34e03d6b7be5 ""
+  "main.aux" 1624969279 2010 277482a3134bfb8a049d22e4354b8356 "pdflatex"
+  "main.bbl" 1624968737 1021 89e0ccc67072d31a49fba2038212e2e2 "bibtex main"
+  "main.tex" 1624965952 2380 d59ffbdcf698fc72e5eeea871e0d5d43 ""
+  "section/introduction.tex" 1624964213 2342 49afa206c0eddb3ff1c3b3a1d2bf8494 ""
+  "section/model.tex" 1624966633 1093 c651f520f25bb8f4232d289fb54ee01e ""
+  "section/model/crossover.tex" 1624968732 1802 8fdc2ed98b10d5d8f3aeafecebd9a5c5 ""
+  "section/model/fitness.tex" 1624969276 1454 7ca4760359524d35f744d6c1f6af4c31 ""
+  "section/model/init.tex" 1624962650 398 d4ed0b76b8f8b54422590418e0631a52 ""
+  "section/model/selection.tex" 1624966632 78 410765201a6b83253aa3a77e4be40e6c ""
   (generated)
   "main.pdf"
   "main.aux"
