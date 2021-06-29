@@ -1,8 +1,8 @@
-PWD d:/SCHOOL/2018-2019/BachelorProef/indienen/Paper
+PWD d:/SCHOOL/2018-2019/BachelorProef/GIT/aytug.altin-bachproef-2019/Paper
 INPUT c:/texlive/2021/texmf.cnf
 INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/SCHOOL/2018-2019/BachelorProef/indienen/Paper/main.tex
+INPUT d:/SCHOOL/2018-2019/BachelorProef/GIT/aytug.altin-bachproef-2019/Paper/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
