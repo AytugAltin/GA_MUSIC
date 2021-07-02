@@ -5,45 +5,46 @@ The style file: plain.bst
 Database file #1: mybib.bib
 Warning--empty booktitle in PAPER:GENJAM
 Warning--empty booktitle in PAPER:MAGMA
-You've used 5 entries,
+Warning--can't use both volume and number fields in Zipfslaw_paper2
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            532 strings with 4866 characters,
-and the built_in function-call counts, 1268 in all, are:
-= -- 114
-> -- 61
-< -- 0
-+ -- 26
-- -- 20
-* -- 71
-:= -- 236
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 24
+            550 strings with 5451 characters,
+and the built_in function-call counts, 2233 in all, are:
+= -- 201
+> -- 132
+< -- 2
++ -- 55
+- -- 46
+* -- 154
+:= -- 397
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 43
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 56
-empty$ -- 104
-format.name$ -- 20
-if$ -- 254
+cite$ -- 10
+duplicate$ -- 88
+empty$ -- 160
+format.name$ -- 46
+if$ -- 452
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 28
-num.names$ -- 10
-pop$ -- 35
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 14
+pop$ -- 54
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 37
 quote$ -- 0
-skip$ -- 32
+skip$ -- 54
 stack$ -- 0
-substring$ -- 26
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 58
+swap$ -- 15
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
-warning$ -- 2
-while$ -- 10
-width$ -- 6
-write$ -- 54
-(There were 2 warnings)
+type$ -- 26
+warning$ -- 3
+while$ -- 16
+width$ -- 8
+write$ -- 78
+(There were 3 warnings)

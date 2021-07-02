@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.25)  29 JUN 2021 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.25)  2 JUL 2021 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -323,12 +323,17 @@ Package pdftex.def Info: Fotos/crossover/last.png  used on input line 10.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (./section/model/fitness.tex) (./section/model/selection.tex))
+) (./section/model/fitness.tex
+Overfull \hbox (10.19707pt too wide) detected at line 8
+\OML/cmm/m/it/10 R[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 difference\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 ))
+ []
+
+[2 <./Fotos/crossover/init.png> <./Fotos/crossover/last.png>] (./section/model/fitness/relative.tex)) (./section/model/selection.tex))
 Underfull \hbox (badness 10000) in paragraph at lines 3--49
 
  []
 
-[2 <./Fotos/crossover/init.png> <./Fotos/crossover/last.png>]
+
 Underfull \hbox (badness 1558) in paragraph at lines 67--68
 \T1/cmr/m/n/10 knowl-edge-ments Ac-knowl-edge-ments Ac-knowl-
  []
@@ -358,24 +363,34 @@ Underfull \hbox (badness 6944) in paragraph at lines 9--15
 \T1/cmr/m/n/10 De-part-ment of Com-puter Sci-ence and
  []
 
-(c:/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-1.def
+
+Underfull \hbox (badness 5832) in paragraph at lines 27--31
+[]\T1/cmr/m/n/10 Bill Ma-n-aris, Juan Romero, Pe-nousal
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 33--39
+[]\T1/cmr/m/n/10 Bill Ma-n-aris, Patrick Roos, Pe-nousal
+ []
+
+[3] (c:/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
-)) [3
+)) [4
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4954 strings out of 478510
- 67961 string characters out of 5853586
- 406319 words of memory out of 5000000
- 22845 multiletter control sequences out of 15000+600000
- 413083 words of font info for 42 fonts, out of 8000000 for 9000
+ 4959 strings out of 478510
+ 68139 string characters out of 5853586
+ 407325 words of memory out of 5000000
+ 22847 multiletter control sequences out of 15000+600000
+ 412748 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,7n,66p,1289b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (3 pages, 254899 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (4 pages, 260457 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

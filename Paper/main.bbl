@@ -23,6 +23,20 @@ Adil~Haleem Khan.
 \newblock Artificial intelligence approaches to music composition.
 \newblock Northern Kentucky University, Highland Heights, KY 41099, 2013.
 
+\bibitem{Zipfslaw_paper}
+Bill Manaris, Juan Romero, Penousal Machado, Dwight Krehbiel, Timothy Hirzel,
+  Walter Pharr, and Robert Davis.
+\newblock Zipf's law, music classification, and aesthetics.
+\newblock {\em Computer Music Journal}, 29:55--69, 03 2005.
+
+\bibitem{Zipfslaw_paper2}
+Bill Manaris, Patrick Roos, Penousal Machado, Dwight Krehbiel, Luca Pellicoro,
+  and Juan Romero.
+\newblock A corpus-based hybrid approach to music analysis and composition.
+\newblock In {\em Proceedings of the National Conference on Artificial
+  Intelligence}, volume~22, page 839. Menlo Park, CA; Cambridge, MA; London;
+  AAAI Press; MIT Press; 1999, 2007.
+
 \bibitem{PAPER:DRAGAN}
 Dragan Matić.
 \newblock A genetic algorithm for composing music.

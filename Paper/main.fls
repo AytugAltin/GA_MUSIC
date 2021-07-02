@@ -333,7 +333,6 @@ INPUT section/model/init.tex
 INPUT ./section/model/init.tex
 INPUT section/model/init.tex
 INPUT c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT ./section/model/crossover.tex
 INPUT section/model/crossover.tex
 INPUT ./section/model/crossover.tex
@@ -352,7 +351,11 @@ INPUT ./section/model/fitness.tex
 INPUT section/model/fitness.tex
 INPUT ./section/model/fitness.tex
 INPUT section/model/fitness.tex
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT ./section/model/fitness/relative.tex
+INPUT section/model/fitness/relative.tex
+INPUT ./section/model/fitness/relative.tex
+INPUT section/model/fitness/relative.tex
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT ./section/model/selection.tex
 INPUT section/model/selection.tex
 INPUT ./section/model/selection.tex
@@ -368,7 +371,6 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-1.def
 INPUT c:/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-1.def
 INPUT main.aux
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
-INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb

@@ -1,4 +1,4 @@
-\subsection{Recombination}
+\section{Recombination}
 In the recombination step, a crossover function is used to pair parents in order to produce a child. This child will belong to the next generation. The model performs a uniform crossover, meaning each gene will be considered separately when pairing the parents \cite{BOOK:GA}. For each song, the notes, chords and rests are considered as the genes of a song. Two parents produce only one child by uniformly selecting genes from one of the two parents. 
 On figure \ref{fig:cross_init}, an example of two songs, that are considered as parents, are graphically displayed. During the crossover process, the model iterates over all the genes in both parents and selects only one or the other to pass to the resulting child. Both genes have an equal chance of being selected. On figure \ref{fig:cross_7} a sample child of the corresponding parents is illustrated.
 \begin{figure}[H]
