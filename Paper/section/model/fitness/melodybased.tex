@@ -1,0 +1,25 @@
+\subsubsection{Melody direction}\mbox{}\\
+The direction of a song can be represented as a number between 0 and 1. If this number is higher than 0.5, the direction is of the melody is going upwards, otherwise it is going downwards. This score is calculated by comparing the amount of upwards intervals (positive semitones) to all the intervals. The melody direction song $x$ is calculated with the following sub-function:
+\[ MelodyDirection(x) = \frac{I_{upwards}}{I_{total}} \]
+with $I_{upwards}$ the number of upwards intervals and $I_{total}$ the total number of intervals.
+The rating function for the melody direction calculates a score by comparing the direction of the candidate song $x$ and the master song $m$ as followed:
+\[ MelodyDirectionScore(x) = abs(\]
+\[MelodyDirection(x) - MelodyDirection(m)) \]
+with $abs()$ as the absolute value function.
+
+
+\subsubsection{Direction stability}\mbox{}\\
+This rating function calculates a score based on the number of the times the direction of the melody changes. A direction change occurs when the direction of the current interval is not equal to the previous. The direction stability score of a song $x$ is defined by the following rating function:
+\[ DirectionStability(x) = \frac{I_{change}}{I_{total}} \]
+with $I_{change}$ the number of direction changes and $I_{total}$ the total number of intervals.
+The rating function for the direction stability calculates a score by comparing the direction stability of the candidate song $x$ and the master song $m$ as followed:
+\[ DirectionStabilityScore(x) = abs(\]
+\[DirectionStability(x) - DirectionStability(m)) \]
+
+\subsubsection{Unique pitches}\mbox{}\\
+This rating functions gives a score based on the number of unique pitches of the song. This results in the following rating functions
+\[ UniquePitches(x) = \frac{\textit{Number of uniques pitches}}{\textit{Total number of pitches} } \]
+Here, the rating function is similar to the previous ones:
+\[ UniquePitchesScore(x) = abs(\]
+\[UniquePitches(x) - UniquePitches(m)) \]
+

@@ -1,6 +1,3 @@
-\subsection{Theoraetic}
-\todo[]{fix intro }
-First, the rating functions that belong to the relative comparison are described.
 \subsubsection{Zipf's law distance}
 \cite{Zipfslaw_paper} and \cite{Zipfslaw_paper2} described that songs that followed Zipf's law, or were closer to it than other songs, were more likely to be preferred by users. 
 \\
@@ -8,10 +5,11 @@ A Zipfian distribution is a distribution where the 2nd highest occurring element
 \[ Occurences(E) =  \frac{1}{R} * L  \]
 \\
 The tendency of the song's elements to follow the Zipf's law is the concept for this rating function. The song's elements can be both intervals or notes. This rating function can be used in two ways. The candidate song can be rated on its tendency to follow the Zipf's law. The candidate song can also be rated based on how similar this tendency is between the master song and the candidate song.
-
 \paragraph{Pitches}\mbox{}\\
-Consider the distribution for the pitches that occur in the candidate song. With the same pitches, consider a Zipfian distribution that has the same pitches. Calculating the Wasserstein distance between these two distributions results in a letric that represents the tendency of a song to follow zipf's law. This distance can be normalized by the Wasserstein distance between the Zipfian distribution and a uniform distribution of the same pitches. The following equation illustrates how a this score can be calculated.
+Consider the distribution for the pitches that occur in the candidate song. With the same pitches, consider a Zipfian distribution that has the same pitches. Calculating the Wasserstein distance between these two distributions results in a metric that represents the tendency of a song to follow zipf's law. This distance can be normalized by the Wasserstein distance between the Zipfian distribution and a uniform distribution of the same pitches. The following equation illustrates how a this score can be calculated.
 \[ ZipfPitchScore(x) =  \frac{WD(D_{song},D_{zipf})}{WD(D_{uniform},D_{zipf})} \]with $WD()$ the Wasserstein distance between two distributions, $D_{song}$ is the pitch distribution of the candidate song, $D_{zipf}$ is the zipfian distribution of the pitches of the candidate song and $D_{uniform}$ the uniform distribution of the pitches of the candidate song.
 \paragraph{Intervals}\mbox{}\\
 The same can be done for the intervals between notes of the song, which results as the following equation:
 \[ ZipfIntervalScore(x) = \frac{WD(D_{song},D_{zipf})}{WD(D_{uniform},D_{zipf})}\]
+\paragraph{Usage}\mbox{}\\
+Both these sub-functions (ZipfIntervalScore() and ZipfPitchScore()) are used to create two rating functions. Since these two rating functions can be used independently there is no need to compare them to the master. Here the sub-function is equal to the rating function.
