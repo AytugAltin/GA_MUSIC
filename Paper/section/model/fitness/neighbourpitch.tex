@@ -1,0 +1,4 @@
+\subsubsection{Neighbor pitch}\label{sec:rater:neighbourpitch}
+This rating function calculates a score based on the amount of wrong or unpleasant intervals. Unpleasant intervals are defined by the master song. The master song defines the lower and the upper bound of the intervals between notes. The neighbor pitch rating function calculates a score based on the number of occurrences of these unpleasant intervals. The following rating function emerges:
+\[ NeighborPitchScore(x) = \frac{I_{unpleasant}}{I_{total}} \]
+with $I_{unpleasant}$ the number of unpleasant intervals and $I_{total}$ the total number of intervals.

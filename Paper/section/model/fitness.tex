@@ -1,0 +1,15 @@
+
+\section{The fitness function}
+A composition has multiple aspects that can be rated at each individual level, therefore, the fitness of an individual is determined by different \textbf{rating functions}. Each of these rating functions calculates a \textbf{score} for a particular \textbf{concept} of the song. The tendency to follow a musical scale within the composition is a concept for example. Every rating function calculates a score and to this score there is a predetermined weight attached that implies the importance of the rated concept. The total fitness of a song $x$ is equal to the sum of the products of all rating functions S for each concept and their corresponding weights W.
+\[ TotalFitness(x) = \sum_{i=1}^{C} S_{i} * W_{i}\] 
+where C is the number of concepts.
+\\
+A rating function calculates a score for a concept based on a reference. For the reference, an existing song is used. Throughout this paper, this reference song is called the \textbf{master song}. The goal is to generate songs that are similar to the master song. The master song defines the genre that the candidates have to follow. Each rating function $R$ of a concept calculates a score based on the difference of the candidate song $x$ to the master song $m$ for that concept $c$. 
+\[ R_{concept}(x) =  difference(f_{concept}(x),f_{concept}(m)) \]
+With $f()$ a sub-function that gives a rating for the concept.
+\\
+We introduce two ways to compare the master song with the candidate song: absolute and relative comparison. In the absolute comparison, the elements of the master song are directly compared with the candidate song. The rating functions belonging to the absolute comparison make sure the candidate songs look similar to the master song. In the relative comparison, the structure of the master song is directly compared with the candidate song. Here the candidate songs will not exactly match the master. 
+\\
+In the following sections, every single rating function is described. For each rating function of a concept, We describe the concept first. Followed by the sub-function $f()$ that gives a rating for the concept. At last, the methodology on how the difference between the master and the candidate songs are calculated is described.
+
+\input{section/model/fitness/ratingfunctions.tex}

@@ -1,0 +1,77 @@
+The match rate defines the type of binding between two measures. Here, 4 types are defined: strong bindings, normal bindings, weak bindings, garbage bindings. These terms will be used further in this paper. A strong binding is of a stronger type than the normal binding, a normal binding is of a stronger type than the weak binding and a weak binding is of a stronger type than the garbage binding. Here, the criteria for each type of binding is defined. These criteria are determined subjectively and by intuition. As illustration, the first 16 measures of the Godfather theme song is used.
+\\
+Strong bindings are bindings where repetition is very likely to be noticeable between the two measures. There exist a strong binding between two measures the following two rules are true.
+\begin{enumerate}
+	\item At least three of the following criteria are true.
+			\begin{enumerate}
+				\item types match rate $>$ 80\%
+				\item pitches match rate $>$ 80\%
+				\item offsets match rate $>$ 85\%
+				\item durations match rate $>$ 85\%
+				\item semitones match rate $>$ 80\%
+			\end{enumerate}
+	\item (semitones match rate + combine match rate) / 2 $\geq$ 80 ($=$ threshold)
+\end{enumerate}
+
+Strong bindings of the godfather theme song are represented on a graph shown on figure \ref{fig:GF_strong_graph}. Each node is a measure marked with its position, each edge represents the matching rate between the measures. The measures that are not strongly bonded have no connection with each other. The graph representation has been used to  determine the rules to classify the type of the relation between two measures.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{Fotos/bindings_graph/Godfather_16_strong.png}
+	\caption{Graph representing strong bindings between measures in the Godfather theme song }
+	\label{fig:GF_strong_graph}
+\end{figure}
+
+Normal bindings are bindings where the repetitiveness of the two measures is less likely to be noticeable compared to strong between both measures. For two measures to be normally bonded they would have the same rules with different thresholds: 
+\begin{enumerate}
+	\item At least three of the following criteria are true.
+			\begin{enumerate}
+				\item types match rate $>$ 70\%
+				\item pitches match rate $>$ 70\%
+				\item offsets match rate $>$ 75\%
+				\item durations match rate $>$ 75\%
+				\item semitones match rate $>$ 70\%
+			\end{enumerate}
+	\item (semitones match rate + combine match rate) / 2 $\geq$ 70 ($=$ threshold)
+\end{enumerate}
+
+On figure \ref{fig:GF_normal_graph}, the normal bindings are visualized for the godfather theme song.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{Fotos/bindings_graph/Godfather_16_normal.png}
+	\caption{Graph representing normal bindings between measures: each node is a measure with its number inside, each edge represents the strength of matching rate between them.}
+	\label{fig:GF_normal_graph}
+\end{figure}
+As seen on the graph, there are more nodes and more edges on the normal bindings graph relative to the strong bindings graph on figure. This is interpretted as the structure of this song.
+\\\\
+Furthermore, there are two binding types to bed discussed: weak bindings and garbage bindings. The weak bindings have as rules:
+
+\begin{enumerate}
+	\item At least three of the following criteria are true.
+			\begin{enumerate}
+				\item types match rate $>$ 55\%
+				\item pitches match rate $>$ 55\%
+				\item offsets match rate $>$ 60\%
+				\item durations match rate $>$ 60\%
+				\item semitones match rate $>$ 55\%
+			\end{enumerate}
+	\item (semitones match rate + combine match rate) / 2 $\geq$ 55 ($=$ threshold)
+\end{enumerate}
+
+
+The garbage has no rules They represent everything that is left over.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{Fotos/bindings_graph/Godfather_16_weak.png}
+	\caption{Graph representing weak bindings between measures: each node is a measure with its number inside, each edge represents the strength of matching rate between them.}
+	\label{fig:GF_weak_graph}
+\end{figure}
+
+On figure \ref{fig:GF_weak_graph}, it is shown that a lot of measures are weakly bonded with each other. These bindings have little resemblance with each other. On this graph, we see that all the measures have weak bindings with each other. This is a characteristic of the song that can be captured with these measure binding graphs. It indicates the resemblance of the measures across the song.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{Fotos/bindings_graph/Godfather_16_garbage.png}
+	\caption{Graph representing garbage bindings between measures: each node is a measure with its number inside, each edge represents the strength of matching rate between them.}
+	\label{fig:GF_garbage_graph}
+\end{figure}
+
+On figure \ref{fig:GF_garbage_graph}, it is visible that 11 out of the 16 measures have garbage bindings with other measures and 5 measures have some level of bindings. This is a way to analyze a song and to compare it with other songs if they meet the same condition. This allows our model to look how the measures are bonded to each other and if it is possible to have measures that have a lot or have a few garbage bindings. The relationship between measures captures characteristic of a song that can be compared with other songs and from this comparison a score can be calculated that represents the distance between the two compared songs.

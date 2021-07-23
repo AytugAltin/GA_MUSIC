@@ -1,0 +1,32 @@
+\subsubsection{Measure representation and relations}
+Every measure in a song can be represented at different levels. In this paper, the following levels are considered for the representation of a measure:
+\begin{itemize}
+	\item pitch;
+	\item type;
+	\item duration;
+	\item offset;
+	\item combination of pitch, type, duration and offset;
+	\item semitone.
+\end{itemize}
+The following is an example of a measure consisting of 6 elements represented at these six levels.
+
+The \textbf{type} representation consist of the types of the measure's elements (note as N, chord as X and rest as R) in chronological order:
+\[ [X, X, N, X, X, N] \]
+
+
+The \textbf{pitch} representation consist of the corresponding pitch(es) of the musical elements in the chronology they occur in the measure:
+\[[G\sharp3G\sharp4, D3B2, C3, C5G4E\flat4, E\flat4G4C5, B4]\]
+
+The \textbf{duration} representation is a list of the durations of the musical elements in the chronology they occur in the measure:
+\[[half, quarter, eighth, eighth, eighth, eighth] \]
+
+The \textbf{offset} representation is a list of the start time of every element that occurs in the measure. This list is also chronologically ordered:
+\[[0.0, 1.0, 2.0, 2.5, 3.0, 3.5] \]
+
+The \textbf{combine} representation is a combination of the types, pitches, durations and offsets representations:
+\[ [XG\sharp3G\sharp4h0.0, XD3B2q1.0, NC3e2.0, \]
+\[XC5G4E\flat4e2.5, XE\flat4G4C5e3.0, NB4e3.5] \]
+
+The \textbf{semitone} representation is a list of the semitones values of the intervals between the notes and chords. 
+\[[-6, -2, 24, -9, 8] \]
+Note that rests will be skipped.
