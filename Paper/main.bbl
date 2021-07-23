@@ -42,4 +42,11 @@ Dragan Matić.
 \newblock A genetic algorithm for composing music.
 \newblock {\em Yugoslav Journal of Operations Research}, 20, 01 2010.
 
+\bibitem{Levenshtein}
+Frederic~P. Miller, Agnes~F. Vandome, and John McBrewster.
+\newblock {\em Levenshtein Distance: Information Theory, Computer Science,
+  String (Computer Science), String Metric, Damerau?Levenshtein Distance, Spell
+  Checker, Hamming Distance}.
+\newblock Alpha Press, 2009.
+
 \end{thebibliography}
