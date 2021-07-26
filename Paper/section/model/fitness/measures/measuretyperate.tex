@@ -1,0 +1,26 @@
+\paragraph{Measures types rate}\mbox{}\\ \label{sec:measure_type}
+This rating is based on the measure itself instead of the bindings. Every measure can be categorized by its best possible measure binding. On figure \ref{fig:GF_strong_graph}, the measures 1,2,3,5,7,6,9,10 and 14 have at least one strong binding. The strong measure rate of a song $x$ is equal to the number of measures with its strongest binding type strong $s$ divided by the number of measures $M$:
+\[ StrongMeasureRate(x) = \frac{\textit{s}}{\textit{M} } \]
+In this example, there are 9 measures that have as their strongest binding a strong binding type thus $StrongMeasureRate$ of the Godfather song is $\frac{9}{16} =  0.5625$.
+
+Similarly, the followind sub-functions are defined for the other types of the measures. The normal measure rate of a song $x$ is equal to the number of measures with as strongest bindings type normal $n$ divided by the number of measures $M$:
+
+\[ NormalMeasureRate(x) = \frac{\textit{n}}{\textit{M} } \]
+In the Godfather theme song, there are 7 measures out of 16 measures that have as their strongest binding a normal binding, thus $NormalMeasureRate$ of the Godfather song is $\frac{7}{16} =  0.4375$.
+
+The weak measure rate of a song $x$ is equal to the number of measures with as strongest bindings type weak $w$ divided by the number of measures $M$:
+\[ WeakMeasureRate(x) = \frac{\textit{w}}{\textit{M} } \]
+In the Godfather theme song, there are 0 measures that have as their strongest binding a weak binding thus $WeakMeasureRate =  0.0$.
+
+The garbage measure rate of a song $x$ is equal to the number of measures with as strongest bindings type garbage $g$ divided by the number of measures $M$:
+\[ GarbageMeasureRate(x) = \frac{\textit{g}}{\textit{M} } \]
+In the Godfather theme song, there are 0 measures that have as their strongest binding a garbage binding thus $GarbageMeasureRate =  0.0$.
+
+Having a $WeakMeasureRate =  0.0$ and a $GarbageMeasureRate =  0.0$ means that all the measures have some sort of similarity with each other. There cannot be an outcast of a measure that has nothing in common with any of the measures, not according to the Godfather theme song. 
+
+The rating function will use these sub-functions to compare the measure types rates of a master song $m$ to the candidate song $x$. The rating function is defined as followed:
+\[MeasureTypesScore(x) = \]
+\[abs( StrongTypeRate(x) - StrongTypeRate(m)) \]
+\[+ abs( NormalTypeRate(x) - NormalTypeRate(m)) \]
+\[+ abs( WeakTypeRate(x) - WeakTypeRate(m)) \]
+\[+ abs( GarbageTypeRate(x) - GarbageTypeRate(m)) \]

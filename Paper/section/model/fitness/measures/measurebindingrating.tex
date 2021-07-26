@@ -1,0 +1,25 @@
+\paragraph{Measure bindings rate}\mbox{}\\
+The measure bindings rating function calculates a score based on the amount of strong, normal, weak and garbage bindings between measures. The concept that is being rated is the correctness of the rates in which the bindings of measures occur. Notice that the order does not have an effect on the score. For $M$ measures there are \( \frac{M  (M-1)}{2} \) bindings, if $s$ measures are strong bindings, the strong bindings rate would be equal to $\frac{2s}{ M  (M-1) }$. The following sub-functions are used calculate a score for this rating function:
+
+\[ StrongBindingsRate(x) = \frac{\textit{2s}}{M  (M-1)} \]
+with $s$ the number of strong bindings and $x$ a song;
+
+\[ NormalBindingsRate(x) = \frac{\textit{2n}}{M  (M-1)} \]
+with $n$ the number of normal bindings and $x$ a song;
+
+\[ WeakBindingsRate(x) = \frac{\textit{2w}}{M (M-1)}   \]
+with $w$ the number of weak bindings and $x$ a song;
+
+\[ GarbageBindingsRate(x) = \frac{\textit{2g}}{M (M-1)} \]
+with $g$ the number of garbage bindings and $x$ a song.
+
+The rating function will use the sub-functions to compare the measure bindings rates to of a master song $m$ to the candidate song $x$. The rating function is defined as followed:
+
+\[MeasureBindingsScore(x) = abs( \]
+\[StrongBindingsRate(x), StrongBindingsRate(m))\]
+\[+ abs( NormalBindingsRate(x), \]
+\[NormalBindingsRate(m))+ abs(  \]
+\[WeakBindingsRate(x) , WeakBindingsRate(m)) \]
+\[+ abs( GarbageBindingsRate(x) \]
+\[, GarbageBindingsRate(m)) \]
+

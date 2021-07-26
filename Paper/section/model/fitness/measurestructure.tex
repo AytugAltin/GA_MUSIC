@@ -1,0 +1,35 @@
+\subsection{Measure structure and patterns}
+In this section, multiple rating functions are discussed that compare the  structure of the measures of a master song $m$ with a candidate song $x$. For every measure of a song, its similarity to the other measures is calculated.
+For example: for an 8 measure long song, the first measure's type similarity with the other measures can look like the following:
+\[[77, 85, 89, 85, 85, 77, 83]\]
+Notice that the size of the list is 7 since the first measure is not compare to itself.  The first element in the list $77$ is a rate that represents the similarity between our first measure with the second, the second element in the list $85$ is a rate that represents the similarity between our first measure with the third and so on. Notice that this list only represents the relations of measure one with the others and not all measures with each other.
+
+For the master song  Godfather theme song, the first measure's type similarity with the other measures will look like the following:
+\[[100, 100, 77, 68, 73, 68, 80]\]
+By using the Wasserstein distance to compare these two lists, the order of the list will not be taken into account. Only the quality of the relations will be rated. Since the Wasserstein distance gives an absolute value, it needs to be normalized. The normalization factor is calculated by the distance of the master song's list to an artificial list that is the furthest away from the master. In our example, the following list will be used:
+\[[0, 0, 0, 0, 0, 0, 0]\]
+The maximum distance of the first element $100$ is $0$, the maximum distance of the second element $100$ is $0$, the maximum distance of the third element $77$ is $0$ and so on. This is called the complement relation for a measure.
+
+For a candidate song $x$ with $M$ measures where $x_{i}$ is the $i$th measure's type relations list of $x$, for a master song $m$ with $M$ measures where $m_{i}$ is the $i$th measure's type relations list of $m$ and $z_{i}$ the complement relation of $m_{i}$, the rating function that calculates a score based on the structure of the types is
+%TypeDistanceScore($x$)%
+
+\[  \frac{1}{M}\sum_{i=1}^{M} \frac{WD(\textit{ $x_i$},\textit{$m_i$})} {WD(\textit{ $z_i$},\textit{ $m_i$})} \]
+
+Now we have calculated the relative type distance rating of the song $x$. We can do the same for the other dimensions.\\\\
+Offsets distance sub-rater's equation:
+\[ \textit{OffsetDistanceRating($x$) } =  \frac{1}{M}\sum_{n=1}^{M}
+\frac{WD(\textit{OffsetRelations $m_n$},\textit{OffsetRelations $g_n$})} {WD(\textit{ComplementOffsetRelations $g_1$},\textit{OffsetRelations $g_n$})} \]
+\\\\
+Pitches distance sub-rater's equation:
+\[ \textit{PitchDistanceRating($x$) } =  \frac{1}{M}\sum_{n=1}^{M}
+\frac{WD(\textit{PitchRelations $m_n$},\textit{PitchRelations $g_n$})} {WD(\textit{ComplementPitchRelations $g_1$},\textit{PitchRelations $g_n$})} \]
+\\\\
+Durations distance sub-rater's equation:
+\[ \textit{DurationDistanceRating($x$) } =  \frac{1}{M}\sum_{n=1}^{M}
+\frac{WD(\textit{DurationRelations $m_n$},\textit{DurationRelations $g_n$})} {WD(\textit{ComplementDurationRelations $g_1$},\textit{DurationRelations $g_n$})} \]
+\\\\
+Semitones distance sub-rater's equation:
+\[ \textit{SemitoneDistanceRating($x$) } =  \frac{1}{M}\sum_{n=1}^{M}
+\frac{WD(\textit{SemitoneRelations $m_n$},\textit{SemitoneRelations $g_n$})} {WD(\textit{ComplementSemitoneRelations $g_1$},\textit{SemitoneRelations $g_n$})} \]
+
+All of the sub-rater's equations above will be multiplied with its own corresponding weight to get their final impact rating.
