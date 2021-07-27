@@ -1,0 +1,16 @@
+\subsubsection{Type distribution rating}\mbox{}\\
+This fitness function compares the occurrence rates of the different types of elements and compares them with the occurrence rate of the master. The sub-functions are used: 
+\[ Rate_{Notes}(x) = \frac{\textit{Number of notes in x}}{\textit{Total number of elements in x} } \]
+\[ Rate_{Chords}(x) = \frac{\textit{Number of chords in x}}{\textit{Total number of elements in x} } \]
+\[ Rate_{Rests}(x) = \frac{\textit{Number of rests in x}}{\textit{Total number of elements in x} } \]
+
+
+The type distribution score will be calculated with the following rating function. The type distribution rating of a song $x$ with master $m$ is calculated by the following formula:
+
+\[ TypeDistributionScore(x) = \]
+\[abs(Rate_{Notes}((x) - \]
+\[Rate_{Notes}((m) \]
+\[+ abs( Rate_{Chords}(x) - \]
+\[Rate_{Chords}(m)) \]
+\[+ abs( Rate_{Rests}(x) - \]
+\[Rate_{Rests}(m)) \]

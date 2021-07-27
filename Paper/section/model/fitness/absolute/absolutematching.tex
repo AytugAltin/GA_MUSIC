@@ -1,0 +1,26 @@
+
+\paragraph{Absolute rhythm rating}\mbox{}\\
+This rating functions compares the rhythm of the candidate song $x$ with the master song $m$. A rhythm list is created by combining durations and the offsets representations of the song. For example the following rhythm string list:
+\[ ['0.0whole', '0.5eighth', '1.0quarter', '1.5quarter',\]
+\[ '1.7516th', ... , '16.5quarter', '16.7516th']\]
+
+The Absolute rhythm matching score is calculated by using the Levenshtein distance to match the string rhythm string list of the candidate song $x$ with the rhythm string list of the master song $m$. 
+
+\paragraph{Absolute types rating}\mbox{}\\
+This rating functions uses the string list that consists out of the types (notes, chords and rests) that occur in the song in chronological order, for example:
+ \[['N', 'N', 'N', 'N', 'N', 'N',  'N', 'X', ... 'N'] \]
+The absolute types rating is calculated by using the Levenshtein distance between this types string list of the candidate song $x$ with the types string list of the master song $g$.
+
+\paragraph{Absolute interval distance rating}\mbox{}\\
+This rating function uses the Wasserstein distance when comparing the semitones of the intervals. By creating a list of interval semitone values, the Wasserstein distance can be calculated between the list of the candidate song  $x$ and the master song $m$. Such a list would look like the following:
+
+ \[ [7, -7, 5, -5, 7 , ..., 5, 2, 3, -12, 9, 3, 2, -5, -2, 7]\]
+
+ The order in which these intervals occur does not effect the Wasserstein metric. For the normalisation factor, the Wasserstein distance between the master song $ù$ and the following list is used:
+  \[ [0]\]
+ The Interval Distance Rating between a song $x$ and a master song is:
+  
+  \[ IntervalDistance(x) = \]
+  \[ \frac{WD(\textit{Distribution of song's intervals},\textit{{Distribution of masters's intervals})}} {WD([0],\textit{Distribution of masters's intervals})} \]
+  
+
