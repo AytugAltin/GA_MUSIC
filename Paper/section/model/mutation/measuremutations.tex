@@ -1,0 +1,9 @@
+\subsection{Measure swap mutation}
+This mutation selects two measures and swaps their place in the song. Consider the measures that are to be swapped measure A and measure B. The selection of measure A will be 50\% of the time random. Half the time the selection of A is random the other half it is somewhat logical.
+\\\\
+When the selection is random, randomly select a measure in the song for mutation. If the measure selection is not random, the worst measure in the song will be chosen for mutation. The worst measure is based on the scores calculated in section \ref{sec:relmeasurebasedratings}.
+\\\\
+Measure B is always chosen randomly and measure B must not be equal to measure A. These measures A and B now get swapped in position. The structure of the song will hereby be manipulated.
+
+\subsection{Measure mix mutation}
+This mutation selects two measures A an B the same way as the measure swap mutation. After selection, some elements from measure B are copied and placed inside of measure A.

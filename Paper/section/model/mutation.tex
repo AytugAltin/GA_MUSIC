@@ -1,0 +1,13 @@
+\section{Mutation}
+In this section, the different types of mutations are described. Mutations introduce new elements in a song, they can have a positive effect, a negative effect or a neutral effect on the total fitness of a song. Some mutations can be seen as optimizations if they guarantee improvement in the total fitness. 
+
+The mutation step is executed if the population become similar. This similarity is calculated by comparing the fitness of the best-rated song with the fitness of the worst-rated song within the population. This value is called the maximum population difference. If this difference is lower than a certain threshold, the population will be mutated, otherwise the mutation step will be skipped. 
+
+Once the population is selected for mutation, a part of the population will be selected for mutation. This is called the "song mutation probability", which is the probability of a song to be selected for mutation.
+
+For each song that is selected for mutation, there is a probability of selecting a particular type of mutation. After executing all the selected mutations on a song, there is a chance for this song to restart the mutation process. This allows the possibility to re-mutate a song multiple times.
+
+\input{section/model/mutation/neighbourpitchmutation.tex}
+\input{section/model/mutation/measuremutations.tex}
+\input{section/model/mutation/elementmutation.tex}
+
